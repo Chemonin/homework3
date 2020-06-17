@@ -1,3 +1,3 @@
-module.exports.index = async () => {
-    console.log('hello')
+module.exports.index = async (req, res) => {
+    res.render('index');
 }
